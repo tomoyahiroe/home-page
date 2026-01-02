@@ -1,0 +1,59 @@
+name: deploy-website
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  deploy-book:
+    runs-on: ubuntu-latest
+    env:
+      # カスタムドメイン配信なので BASE_URL は未設定 (空文字)
+      SITE_BASE_URL: ""
+      # ここに利用するカスタムドメインを記述してください
+      CUSTOM_DOMAIN: kinotate.com
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Install dependencies
+        run: |
+          uv pip install --system -r requirements.txt
+
+      - name: Build the site
+        run: |
+          if [ -n "${SITE_BASE_URL}" ]; then
+            BASE_URL="${SITE_BASE_URL}" myst build --html
+          else
+            myst build --html
+          fi
+
+      - name: Move RSS feeds
+        run: |
+          cp atom.xml _build/html/atom.xml
+          cp rss.xml _build/html/rss.xml
+
+      - name: Create CNAME file
+        run: |
+          echo "${{ env.CUSTOM_DOMAIN }}" > _build/html/CNAME
+
+      - name: GitHub Pages action
+        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./_build/html
+          cname: ${{ env.CUSTOM_DOMAIN }}
