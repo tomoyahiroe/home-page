@@ -1,0 +1,26 @@
+/* User Provided Stylesheet */
+
+/* Reduce spacing between title and content */
+header {
+  margin: 0 !important;
+}
+div {
+  margin: 0 !important;
+}
+h1 {
+  margin-bottom: 0 !important;
+}
+
+/* Reduce spacing for page titles specifically */
+.page-title, 
+article h1:first-child,
+.content h1:first-child {
+  margin-bottom: 0.5rem !important;
+}
+
+/* Reduce top margin of the first content element after title */
+.page-title + *,
+article h1:first-child + *,
+.content h1:first-child + * {
+  margin-top: 0.5rem !important;
+}

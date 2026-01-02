@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
+  <id>http://kinotate.com</id>
+  <title>kintotate blog</title>
+  <updated>2026-01-02T14:08:39.830363+00:00</updated>
+  <author>
+    <name>kinotate</name>
+  </author>
+  <link href="http://kinotate.com" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
+  <logo>http://kinotate.com/_static/kinotate.png</logo>
+  <subtitle>kinotate's personal blog about macroeconomics</subtitle>
+  <entry>
+    <id>http://chrisholdgraf.com/blog/2026/web-dev-ynu</id>
+    <title>Our On-going Project Featured on YNU’s Homepage</title>
+    <updated>2026-01-02T14:08:39.830400+00:00</updated>
+    <content>
+
+Recently, [Yokohama National University (YNU) published a feature newsletter](https://www.econ.ynu.ac.jp/education/dsep/soma.html) on the university’s official website highlighting the work my colleagues, my professor, and I have been doing to visualize Japan’s macroeconomic data.
+
+
+Our goal is to make complex economic indicators—such as GDP growth, inflation rates, and labor statistics—accessible and intuitive. Instead of</content>
+    <link href="http://chrisholdgraf.com/blog/2026/web-dev-ynu"/>
+    <published>2026-01-02T00:00:00+00:00</published>
+  </entry>
+</feed>
