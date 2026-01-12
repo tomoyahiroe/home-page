@@ -1,7 +1,7 @@
 ---
 title: Tomoya Hiroe
 ---
-![my-face](./_static/tomoyahiroe.jpg)
+<img src="_static/tomoyahiroe.png" alt="face" width="300px" />
 
 I'm Tomoya Hiroe, a Master’s student in Economics at Yokohama National University, Japan.
 
