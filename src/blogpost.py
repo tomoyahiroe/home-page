@@ -49,7 +49,7 @@ for ifile in root.rglob("blog/**/*.md"):
     N_WORDS = 50
     words = " ".join(content.split(" ")[:N_WORDS])
     if not "author" in meta or not meta["author"]:
-        meta["author"] = "kinotate"
+        meta["author"] = "tomoyahiroe"
     meta["content"] = meta.get("description", words)
     posts.append(meta)
 # Convert string dates to datetime objects and filter out invalid dates
@@ -79,23 +79,22 @@ posts = sorted(valid_posts, key=lambda x: x["date"], reverse=True)
 
 # Generate an RSS feed
 fg = FeedGenerator()
-fg.id("http://kinotate.com")
-fg.title("kintotate blog")
-fg.author({"name": "kinotate", "email": ""})
-fg.link(href="http://kinotate.com", rel="alternate")
-fg.logo("http://kinotate.com/_static/kinotate.png")
-fg.subtitle("kinotate's blog")
-fg.description("kinotate's personal blog about macroeconomics")
-# fg.link(href="http://chrisholdgraf.com/rss.xml", rel="self")
+fg.id("http://tomoyahiroe.net")
+fg.title("Tomoya Hiroe's personal website")
+fg.author({"name": "Tomoya Hiroe", "email": ""})
+fg.link(href="http://tomoyahiroe.net", rel="alternate")
+fg.logo("http://tomoyahiroe.net/_static/kinotate.png")
+fg.subtitle("")
+fg.description("Focusing on Causal Inference and Statistical Modelling")
 fg.language("ja")
 
 # Add all my posts to it
 for irow in posts:
     fe = fg.add_entry()
-    fe.id(f"http://chrisholdgraf.com/{irow['path']}")
+    fe.id(f"http://tomoyahiroe.net/{irow['path']}")
     fe.published(irow["date"])
     fe.title(irow["title"])
-    fe.link(href=f"http://chrisholdgraf.com/{irow['path']}")
+    fe.link(href=f"http://tomoyahiroe.net/{irow['path']}")
     fe.content(content=irow["content"])
 
 # Write an RSS feed with latest posts

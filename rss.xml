@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>kintotate blog</title>
-    <link>http://kinotate.com</link>
-    <description>kinotate's personal blog about macroeconomics</description>
+    <title>Tomoya Hiroe's personal website</title>
+    <link>http://tomoyahiroe.net</link>
+    <description>Focusing on Causal Inference and Statistical Modelling</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
-      <url>http://kinotate.com/_static/kinotate.png</url>
-      <title>kintotate blog</title>
-      <link>http://kinotate.com</link>
+      <url>http://tomoyahiroe.net/_static/kinotate.png</url>
+      <title>Tomoya Hiroe's personal website</title>
+      <link>http://tomoyahiroe.net</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Mon, 12 Jan 2026 14:37:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 15:53:13 +0000</lastBuildDate>
     <item>
       <title>Our On-going Project Featured on YNU’s Homepage</title>
-      <link>http://chrisholdgraf.com/blog/2026/web-dev-ynu</link>
+      <link>http://tomoyahiroe.net/blog/2026/web-dev-ynu</link>
       <description>
 
 Recently, [Yokohama National University (YNU) published a feature newsletter](https://www.econ.ynu.ac.jp/education/dsep/soma.html) on the university’s official website highlighting the work my colleagues, my professor, and I have been doing to visualize Japan’s macroeconomic data.
 
 
 Our goal is to make complex economic indicators—such as GDP growth, inflation rates, and labor statistics—accessible and intuitive. Instead of</description>
-      <guid isPermaLink="false">http://chrisholdgraf.com/blog/2026/web-dev-ynu</guid>
+      <guid isPermaLink="false">http://tomoyahiroe.net/blog/2026/web-dev-ynu</guid>
       <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

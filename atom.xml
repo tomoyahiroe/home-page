@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
-  <id>http://kinotate.com</id>
-  <title>kintotate blog</title>
-  <updated>2026-01-12T14:37:51.471748+00:00</updated>
+  <id>http://tomoyahiroe.net</id>
+  <title>Tomoya Hiroe's personal website</title>
+  <updated>2026-01-12T15:53:13.444726+00:00</updated>
   <author>
-    <name>kinotate</name>
+    <name>Tomoya Hiroe</name>
   </author>
-  <link href="http://kinotate.com" rel="alternate"/>
+  <link href="http://tomoyahiroe.net" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <logo>http://kinotate.com/_static/kinotate.png</logo>
-  <subtitle>kinotate's personal blog about macroeconomics</subtitle>
+  <logo>http://tomoyahiroe.net/_static/kinotate.png</logo>
+  <subtitle>Focusing on Causal Inference and Statistical Modelling</subtitle>
   <entry>
-    <id>http://chrisholdgraf.com/blog/2026/web-dev-ynu</id>
+    <id>http://tomoyahiroe.net/blog/2026/web-dev-ynu</id>
     <title>Our On-going Project Featured on YNU’s Homepage</title>
-    <updated>2026-01-12T14:37:51.471910+00:00</updated>
+    <updated>2026-01-12T15:53:13.444894+00:00</updated>
     <content>
 
 Recently, [Yokohama National University (YNU) published a feature newsletter](https://www.econ.ynu.ac.jp/education/dsep/soma.html) on the university’s official website highlighting the work my colleagues, my professor, and I have been doing to visualize Japan’s macroeconomic data.
 
 
 Our goal is to make complex economic indicators—such as GDP growth, inflation rates, and labor statistics—accessible and intuitive. Instead of</content>
-    <link href="http://chrisholdgraf.com/blog/2026/web-dev-ynu"/>
+    <link href="http://tomoyahiroe.net/blog/2026/web-dev-ynu"/>
     <published>2026-01-02T00:00:00+00:00</published>
   </entry>
 </feed>
