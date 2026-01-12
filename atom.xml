@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
   <id>http://kinotate.com</id>
   <title>kintotate blog</title>
-  <updated>2026-01-12T13:53:18.350361+00:00</updated>
+  <updated>2026-01-12T14:04:56.553262+00:00</updated>
   <author>
     <name>kinotate</name>
   </author>
@@ -13,7 +13,7 @@
   <entry>
     <id>http://chrisholdgraf.com/blog/2026/web-dev-ynu</id>
     <title>Our On-going Project Featured on YNU’s Homepage</title>
-    <updated>2026-01-12T13:53:18.350394+00:00</updated>
+    <updated>2026-01-12T14:04:56.553298+00:00</updated>
     <content>
 
 Recently, [Yokohama National University (YNU) published a feature newsletter](https://www.econ.ynu.ac.jp/education/dsep/soma.html) on the university’s official website highlighting the work my colleagues, my professor, and I have been doing to visualize Japan’s macroeconomic data.
