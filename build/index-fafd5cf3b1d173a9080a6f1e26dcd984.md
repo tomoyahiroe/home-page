@@ -1,5 +1,5 @@
 ---
-title: Tomoya Hiroe
+title: Welcome
 ---
 <img src="_static/tomoyahiroe.png" alt="face" width="300px" />
 
