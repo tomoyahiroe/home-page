@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
   <id>http://tomoyahiroe.net</id>
   <title>Tomoya Hiroe's personal website</title>
-  <updated>2026-01-12T15:53:13.444726+00:00</updated>
+  <updated>2026-03-08T13:54:15.387735+00:00</updated>
   <author>
     <name>Tomoya Hiroe</name>
   </author>
@@ -13,7 +13,7 @@
   <entry>
     <id>http://tomoyahiroe.net/blog/2026/web-dev-ynu</id>
     <title>Our On-going Project Featured on YNU’s Homepage</title>
-    <updated>2026-01-12T15:53:13.444894+00:00</updated>
+    <updated>2026-03-08T13:54:15.387882+00:00</updated>
     <content>
 
 Recently, [Yokohama National University (YNU) published a feature newsletter](https://www.econ.ynu.ac.jp/education/dsep/soma.html) on the university’s official website highlighting the work my colleagues, my professor, and I have been doing to visualize Japan’s macroeconomic data.
